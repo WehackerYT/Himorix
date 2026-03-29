@@ -103,11 +103,11 @@ export default function Header() {
       } px-4 justify-center lg:justify-end items-center space-x-4 lg:space-x-6 border-b border-white/10`}>
         <div className="flex items-center space-x-2">
           <Phone className="w-3 h-3 text-pink-600" />
-          <span className="text-pink-600">US</span> <span className="text-white">+1 301 563 9488</span>
+          <span className="text-pink-600">US</span> <span className="text-white">Coming Soon</span>
         </div>
         <div className="flex items-center space-x-2">
           <Phone className="w-3 h-3 text-pink-600" />
-          <span className="text-pink-600">IND</span> <span className="text-white">+91 96600 77663</span>
+          <span className="text-pink-600">IND</span> <span className="text-white">+91 89556 23473</span>
         </div>
         <div className="flex items-center space-x-2 border-l border-gray-600 pl-4">
           <Link
