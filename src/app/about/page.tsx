@@ -117,11 +117,11 @@ export default function AboutCompany() {
             </div>
             <div className="flex items-center gap-2">
               <Phone className="w-5 h-5 text-pink-400" />
-              <span>+1 (555) 123-4567</span>
+              <span>IND: +91 89556 23473</span>
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="w-5 h-5 text-pink-400" />
-              <span>San Francisco, CA</span>
+              <span>Jaipur, Rajasthan 302020</span>
             </div>
             <div className="flex items-center gap-2">
               <Globe className="w-5 h-5 text-pink-400" />

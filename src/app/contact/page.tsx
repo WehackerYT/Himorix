@@ -65,7 +65,7 @@ export default function Contact() {
             <div className="flex flex-wrap justify-center gap-4">
               <div className="flex items-center gap-2 text-white bg-white/10 px-4 py-2 rounded-full">
                 <Phone className="w-4 h-4 text-pink-500" />
-                <span>+1 301 563 9488</span>
+                <span>Coming Soon</span>
               </div>
               <div className="flex items-center gap-2 text-white bg-white/10 px-4 py-2 rounded-full">
                 <Mail className="w-4 h-4 text-pink-500" />
@@ -228,8 +228,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Phone</h4>
-                      <p className="text-gray-600">US: +1 301 563 9488</p>
-                      <p className="text-gray-600">IND: +91 96600 77663</p>
+                      <p className="text-gray-600">US: Coming Soon</p>
+                      <p className="text-gray-600">IND: +91 89556 23473</p>
                     </div>
                   </div>
                   
@@ -250,8 +250,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Office</h4>
-                      <p className="text-gray-600">123 Tech Street</p>
-                      <p className="text-gray-600">Silicon Valley, CA 94025</p>
+                      <p className="text-gray-600">Plot No 5, O block Vande Mataram Marg</p>
+                      <p className="text-gray-600">Jaipur, Rajasthan 302020</p>
                     </div>
                   </div>
                 </div>
@@ -308,7 +308,7 @@ export default function Contact() {
           <div className="text-center">
             <MapPin className="w-16 h-16 text-pink-600 mx-auto mb-4" />
             <h3 className="text-2xl font-bold text-gray-900 mb-2">Visit Our Office</h3>
-            <p className="text-gray-600">123 Tech Street, Silicon Valley, CA 94025</p>
+            <p className="text-gray-600">Plot No 5, O block Vande Mataram Marg, Jaipur, Rajasthan 302020</p>
           </div>
         </div>
       </section>

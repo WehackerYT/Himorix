@@ -133,8 +133,8 @@ export default function Footer() {
             <div>
               <h4 className="font-bold text-white mb-1 text-sm lg:text-base">Location</h4>
               <p className="text-gray-400 text-xs lg:text-sm">
-                Himorix Technologies<br />
-                Jaipur, Rajasthan, India
+                Plot No 5, O block Vande Mataram Marg<br />
+                Jaipur, Rajasthan 302020
               </p>
             </div>
           </div>
@@ -162,8 +162,8 @@ export default function Footer() {
             <div>
               <h4 className="font-bold text-white mb-1 text-sm lg:text-base">Call Us</h4>
               <div className="text-gray-400 text-xs lg:text-sm space-y-1">
-                <p>IND: +91 96600 77663</p>
-                <p>US: +1 301 563 9488</p>
+                <p>IND: +91 89556 23473</p>
+                <p>US: Coming Soon</p>
               </div>
             </div>
           </div>
