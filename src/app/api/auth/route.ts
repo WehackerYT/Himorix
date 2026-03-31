@@ -15,12 +15,20 @@ interface StoredUser extends AuthUser {
 // Server-side in-memory user store — shared across all requests
 const users: StoredUser[] = [
   {
+    id: '1',
+    email: 'lokesh@gmail.com',
+    name: 'Lokesh',
+    type: 'user',
+    password: 'lokesh@gmail.com',
+    createdAt: '2026-03-28T10:00:00.000Z',
+  },
+  {
     id: '2',
     email: 'company@himorix.com',
     name: 'Himorix Company',
     type: 'company',
     password: 'company@himorix.com',
-    createdAt: new Date().toISOString(),
+    createdAt: '2026-03-28T10:00:00.000Z',
   },
 ];
 
