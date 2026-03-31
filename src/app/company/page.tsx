@@ -164,7 +164,10 @@ export default function CompanyDashboard() {
       if (m < 60) return `${m}m ago`;
       const h = Math.floor(m / 60);
       if (h < 24) return `${h}h ago`;
-      return `${Math.floor(h / 24)}d ago`;
+      const days = Math.floor(h / 24);
+      if (days === 1) return 'Yesterday ' + d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+      if (days < 7) return d.toLocaleDateString([], { weekday: 'short' }) + ' ' + d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+      return d.toLocaleDateString([], { month: 'short', day: 'numeric' }) + ' ' + d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
     } catch { return ''; }
   };
 
