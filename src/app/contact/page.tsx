@@ -250,8 +250,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Office</h4>
-                      <p className="text-gray-600">Plot No 5, O block Vande Mataram Marg</p>
-                      <p className="text-gray-600">Jaipur, Rajasthan 302020</p>
+                      <p className="text-gray-600">Himorix, O Block, Balaji Choraya</p>
+                      <p className="text-gray-600">Narayan Vihar, Jaipur, Rajasthan</p>
                     </div>
                   </div>
                 </div>
@@ -308,7 +308,7 @@ export default function Contact() {
           <div className="text-center">
             <MapPin className="w-16 h-16 text-pink-600 mx-auto mb-4" />
             <h3 className="text-2xl font-bold text-gray-900 mb-2">Visit Our Office</h3>
-            <p className="text-gray-600">Plot No 5, O block Vande Mataram Marg, Jaipur, Rajasthan 302020</p>
+            <p className="text-gray-600">Himorix, O Block, Balaji Choraya, Narayan Vihar, Jaipur, Rajasthan</p>
           </div>
         </div>
       </section>

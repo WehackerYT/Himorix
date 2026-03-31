@@ -121,7 +121,7 @@ export default function AboutCompany() {
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="w-5 h-5 text-pink-400" />
-              <span>Jaipur, Rajasthan 302020</span>
+              <span>Narayan Vihar, Jaipur, Rajasthan</span>
             </div>
             <div className="flex items-center gap-2">
               <Globe className="w-5 h-5 text-pink-400" />

@@ -133,8 +133,8 @@ export default function Footer() {
             <div>
               <h4 className="font-bold text-white mb-1 text-sm lg:text-base">Location</h4>
               <p className="text-gray-400 text-xs lg:text-sm">
-                Plot No 5, O block Vande Mataram Marg<br />
-                Jaipur, Rajasthan 302020
+                Himorix, O Block, Balaji Choraya<br />
+                Narayan Vihar, Jaipur, Rajasthan
               </p>
             </div>
           </div>

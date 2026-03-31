@@ -143,7 +143,16 @@ export default function ChatBot() {
     
     // Check for contact
     if (contact.some(contactInfo => message.includes(contactInfo))) {
-      return `${personalGreeting}Here's how to reach us:\n\n📞 US: +1 301 563 9488\n📞 IND: +91 96600 77663\n📧 Email: contact@himorix.com\n📍 Office: 123 Tech Street, Silicon Valley, CA 94025\n\n🕐 Business Hours: Mon-Fri 9AM-6PM PST\n\nPrefer a call or email? I can connect you right away!`;
+      return `${personalGreeting}Here's how to reach us:
+
+📞 US: Coming Soon
+📞 IND: +91 89556 23473
+📧 Email: contact@himorix.com
+📍 Office: Himorix, O Block, Balaji Choraya, Narayan Vihar, Jaipur, Rajasthan
+
+🕐 Business Hours: Mon-Fri 9AM-6PM IST
+
+Prefer a call or email? I can connect you right away!`;
     }
     
     // Check for portfolio
@@ -178,12 +187,12 @@ export default function ChatBot() {
     
     // Check for goodbye
     if (goodbye.some(bye => message.includes(bye))) {
-      return `${userName ? `${userName}, ` : ''}Thanks for chatting with Himorix! 👋\n\nFeel free to reach out anytime. Have a great day! 🌟\n\nIf you need urgent assistance, call us at +1 301 563 9488`;
+      return `${userName ? `${userName}, ` : ''}Thanks for chatting with Himorix! 👋\n\nFeel free to reach out anytime. Have a great day! 🌟\n\nIf you need urgent assistance, call us at +91 89556 23473`;
     }
     
     // Check for location
     if (message.includes('where') && (message.includes('located') || message.includes('based'))) {
-      return `${personalGreeting}We're headquartered in Silicon Valley, California 🌉\n\nBut we serve clients globally with team members across US, India, and Europe!\n\nOur global presence allows us to provide 24/7 development support. 🌍`;
+      return `${personalGreeting}We're based in Jaipur, Rajasthan, India 🇮�\n\nBut we serve clients globally with team members across India and expanding internationally!\n\nOur presence allows us to provide excellent development support. 🌍`;
     }
     
     // Check for experience/team
@@ -193,7 +202,7 @@ export default function ChatBot() {
     
     // Check for start/begin/process
     if (message.includes('start') || message.includes('begin') || message.includes('process') || message.includes('how to')) {
-      return `${personalGreeting}Getting started is easy! 🚀\n\n1️⃣ Share your project requirements\n2️⃣ Get free consultation (within 24 hours)\n3️⃣ Receive detailed proposal & timeline\n4️⃣ Kick-off with dedicated team\n\nYou can:\n• Fill out the contact form\n• Email us at contact@himorix.com\n• Call +1 301 563 9488\n\nWhat's your project idea? Let's discuss!`;
+      return `${personalGreeting}Getting started is easy! 🚀\n\n1️⃣ Share your project requirements\n2️⃣ Get free consultation (within 24 hours)\n3️⃣ Receive detailed proposal & timeline\n4️⃣ Kick-off with dedicated team\n\nYou can:\n• Fill out the contact form\n• Email us at contact@himorix.com\n• Call +91 89556 23473\n\nWhat's your project idea? Let's discuss!`;
     }
     
     // Context-aware response based on previous messages
