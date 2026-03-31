@@ -71,7 +71,7 @@ function resetToDefaults() {
       attachment: {
         name: 'Himorix - IISU PROPOSAL.pdf',
         type: 'application/pdf',
-        url: '#',
+        url: '/Himorix-IISU-PROPOSAL.pdf',
         size: 991232,
       },
     },
