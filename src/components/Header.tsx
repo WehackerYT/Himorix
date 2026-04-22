@@ -107,7 +107,7 @@ export default function Header() {
         </div>
         <div className="flex items-center space-x-2">
           <Phone className="w-3 h-3 text-pink-600" />
-          <span className="text-pink-600">IND</span> <span className="text-white">+91 89556 23473</span>
+          <span className="text-pink-600">IND</span> <span className="text-white">+91 9929171178</span>
         </div>
         <div className="flex items-center space-x-2 border-l border-gray-600 pl-4">
           <Link
