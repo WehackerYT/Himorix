@@ -229,7 +229,7 @@ export default function Contact() {
                     <div>
                       <h4 className="font-semibold text-gray-900">Phone</h4>
                       <p className="text-gray-600">US: Coming Soon</p>
-                      <p className="text-gray-600">IND: +91 89556 23473</p>
+                      <p className="text-gray-600">IND: +91 9929171178</p>
                     </div>
                   </div>
                   
