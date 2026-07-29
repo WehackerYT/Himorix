@@ -379,8 +379,8 @@ export default function SuccessStories() {
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-gray-200 rounded-full"></div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Sarah Johnson</h4>
-                    <p className="text-sm text-gray-600">CTO, Global Finance Corp</p>
+                    <h4 className="font-bold text-gray-900">Suresh Agarwal</h4>
+                    <p className="text-sm text-gray-600">CTO, FinTech India Pvt Ltd</p>
                   </div>
                 </div>
               </div>
@@ -397,8 +397,8 @@ export default function SuccessStories() {
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-gray-200 rounded-full"></div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Michael Chen</h4>
-                    <p className="text-sm text-gray-600">Director, Healthcare Plus</p>
+                    <h4 className="font-bold text-gray-900">Arjun Mehta</h4>
+                    <p className="text-sm text-gray-600">Director, HealthCare Plus India</p>
                   </div>
                 </div>
               </div>
@@ -415,8 +415,8 @@ export default function SuccessStories() {
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-gray-200 rounded-full"></div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Emily Rodriguez</h4>
-                    <p className="text-sm text-gray-600">VP Operations, RetailMax</p>
+                    <h4 className="font-bold text-gray-900">Deepika Nair</h4>
+                    <p className="text-sm text-gray-600">VP Operations, RetailMax India</p>
                   </div>
                 </div>
               </div>
@@ -433,8 +433,8 @@ export default function SuccessStories() {
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-gray-200 rounded-full"></div>
                   <div>
-                    <h4 className="font-bold text-gray-900">David Park</h4>
-                    <p className="text-sm text-gray-600">CIO, DataFlow Systems</p>
+                    <h4 className="font-bold text-gray-900">Karthik Iyer</h4>
+                    <p className="text-sm text-gray-600">CIO, DataFlow Systems India</p>
                   </div>
                 </div>
               </div>
@@ -451,8 +451,8 @@ export default function SuccessStories() {
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-gray-200 rounded-full"></div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Lisa Thompson</h4>
-                    <p className="text-sm text-gray-600">Marketing Director, ConnectHub</p>
+                    <h4 className="font-bold text-gray-900">Pooja Desai</h4>
+                    <p className="text-sm text-gray-600">Marketing Director, ConnectHub India</p>
                   </div>
                 </div>
               </div>

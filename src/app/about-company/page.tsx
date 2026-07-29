@@ -118,11 +118,11 @@ export default function AboutCompany() {
             </div>
             <div className="flex items-center gap-2">
               <Phone className="w-5 h-5 text-pink-400" />
-              <span>+1 (555) 123-4567</span>
+              <span>+91 9929171178</span>
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="w-5 h-5 text-pink-400" />
-              <span>San Francisco, CA</span>
+              <span>Jaipur, Rajasthan, India</span>
             </div>
             <div className="flex items-center gap-2">
               <Globe className="w-5 h-5 text-pink-400" />

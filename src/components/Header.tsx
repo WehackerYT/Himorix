@@ -101,10 +101,12 @@ export default function Header() {
       <div className={`flex w-full bg-black text-gray-400 text-xs font-medium transition-all duration-500 ease-in-out fixed top-0 left-0 right-0 z-[60] ${
         scrolled ? "h-0 opacity-0 overflow-hidden" : "h-[33px] opacity-100"
       } px-4 justify-center lg:justify-end items-center space-x-4 lg:space-x-6 border-b border-white/10`}>
+        {/* US Coming Soon - temporarily hidden
         <div className="flex items-center space-x-2">
           <Phone className="w-3 h-3 text-pink-600" />
           <span className="text-pink-600">US</span> <span className="text-white">Coming Soon</span>
         </div>
+        */}
         <div className="flex items-center space-x-2">
           <Phone className="w-3 h-3 text-pink-600" />
           <span className="text-pink-600">IND</span> <span className="text-white">+91 9929171178</span>
@@ -484,6 +486,7 @@ export default function Header() {
               <div className="relative group cursor-pointer flex items-center hover:text-pink-500 transition-all duration-300 py-8 hover:scale-105">
                 Technologies <ChevronDown className="ml-1 w-4 h-4 transition-transform duration-300 group-hover:rotate-180" />
               </div>
+              {/* Success Stories - temporarily hidden
               <div 
                 className="relative group cursor-pointer flex items-center hover:text-pink-500 transition-all duration-300 py-8 hover:scale-105"
                 onMouseEnter={() => setActiveDropdown("success-stories")}
@@ -491,7 +494,6 @@ export default function Header() {
               >
                 Success Stories <ChevronDown className="ml-1 w-4 h-4 transition-transform duration-300 group-hover:rotate-180" />
                 
-                {/* Success Stories Dropdown Menu */}
                 <div className={`absolute top-full left-1/2 -translate-x-1/2 w-[280px] bg-gray-900 rounded-xl shadow-xl border border-gray-700 overflow-hidden transition-all duration-300 transform ${
                   activeDropdown === "success-stories" ? "opacity-100 translate-y-0 visible" : "opacity-0 -translate-y-2 invisible"
                 }`}>
@@ -517,6 +519,7 @@ export default function Header() {
                   </div>
                 </div>
               </div>
+              */}
               
               <button 
                 className="text-white hover:text-pink-500 transition-all duration-300 hover:scale-110"
@@ -600,7 +603,7 @@ export default function Header() {
               </div>
 
               {/* Other Menu Items */}
-              {['Cloud', 'Data & AI', 'Security', 'Industries', 'On-Demand Developer', 'Technologies', 'Success Stories'].map((item) => (
+              {['Cloud', 'Data & AI', 'Security', 'Industries', 'On-Demand Developer', 'Technologies'].map((item) => (
                 <Link 
                   key={item}
                   href="#" 

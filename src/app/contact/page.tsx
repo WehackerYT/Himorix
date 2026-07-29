@@ -63,10 +63,10 @@ export default function Contact() {
               Ready to transform your ideas into reality? Let's discuss how we can help you achieve your business goals.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <div className="flex items-center gap-2 text-white bg-white/10 px-4 py-2 rounded-full">
+              {/* <div className="flex items-center gap-2 text-white bg-white/10 px-4 py-2 rounded-full">
                 <Phone className="w-4 h-4 text-pink-500" />
                 <span>Coming Soon</span>
-              </div>
+              </div> */}
               <div className="flex items-center gap-2 text-white bg-white/10 px-4 py-2 rounded-full">
                 <Mail className="w-4 h-4 text-pink-500" />
                 <span>contact@himorix.com</span>
@@ -103,7 +103,7 @@ export default function Contact() {
                         onChange={handleChange}
                         required
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-pink-500 transition-colors"
-                        placeholder="John Doe"
+                        placeholder="Rahul Sharma"
                       />
                     </div>
                     
@@ -119,7 +119,7 @@ export default function Contact() {
                         onChange={handleChange}
                         required
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-pink-500 transition-colors"
-                        placeholder="john@example.com"
+                        placeholder="rahul@example.com"
                       />
                     </div>
                   </div>
@@ -136,7 +136,7 @@ export default function Contact() {
                         value={formData.phone}
                         onChange={handleChange}
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-pink-500 transition-colors"
-                        placeholder="+1 (555) 123-4567"
+                        placeholder="+91 98765 43210"
                       />
                     </div>
                     
@@ -151,7 +151,7 @@ export default function Contact() {
                         value={formData.company}
                         onChange={handleChange}
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-pink-500 transition-colors"
-                        placeholder="Acme Corporation"
+                        placeholder="Tech Solutions Pvt Ltd"
                       />
                     </div>
                   </div>
@@ -228,7 +228,6 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Phone</h4>
-                      <p className="text-gray-600">US: Coming Soon</p>
                       <p className="text-gray-600">IND: +91 9929171178</p>
                     </div>
                   </div>
@@ -250,8 +249,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Office</h4>
-                      <p className="text-gray-600">Himorix, O Block, Balaji Choraya</p>
-                      <p className="text-gray-600">Narayan Vihar, Jaipur, Rajasthan</p>
+                      <p className="text-gray-600">A-53, Mohru Nagar, Manyawas</p>
+                      <p className="text-gray-600">Mansarovar, Jaipur, Rajasthan, 302020 India</p>
                     </div>
                   </div>
                 </div>
@@ -265,14 +264,14 @@ export default function Contact() {
                     <Clock className="w-5 h-5 text-pink-600" />
                     <div>
                       <p className="font-medium text-gray-900">Monday - Friday</p>
-                      <p className="text-gray-600">9:00 AM - 6:00 PM PST</p>
+                      <p className="text-gray-600">9:00 AM - 6:00 PM IST</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-3">
                     <Clock className="w-5 h-5 text-pink-600" />
                     <div>
                       <p className="font-medium text-gray-900">Saturday</p>
-                      <p className="text-gray-600">10:00 AM - 4:00 PM PST</p>
+                      <p className="text-gray-600">10:00 AM - 4:00 PM IST</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-3">
@@ -308,7 +307,7 @@ export default function Contact() {
           <div className="text-center">
             <MapPin className="w-16 h-16 text-pink-600 mx-auto mb-4" />
             <h3 className="text-2xl font-bold text-gray-900 mb-2">Visit Our Office</h3>
-            <p className="text-gray-600">Himorix, O Block, Balaji Choraya, Narayan Vihar, Jaipur, Rajasthan</p>
+            <p className="text-gray-600">A-53, Mohru Nagar, Manyawas, Mansarovar, Jaipur, Rajasthan, 302020 India</p>
           </div>
         </div>
       </section>

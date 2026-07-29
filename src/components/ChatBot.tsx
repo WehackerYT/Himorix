@@ -145,10 +145,9 @@ export default function ChatBot() {
     if (contact.some(contactInfo => message.includes(contactInfo))) {
       return `${personalGreeting}Here's how to reach us:
 
-📞 US: Coming Soon
 📞 IND: +91 9929171178
 📧 Email: contact@himorix.com
-📍 Office: Himorix, O Block, Balaji Choraya, Narayan Vihar, Jaipur, Rajasthan
+📍 Office: A-53, Mohru Nagar, Manyawas, Mansarovar, Jaipur, Rajasthan, 302020 India
 
 🕐 Business Hours: Mon-Fri 9AM-6PM IST
 

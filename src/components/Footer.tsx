@@ -133,8 +133,8 @@ export default function Footer() {
             <div>
               <h4 className="font-bold text-white mb-1 text-sm lg:text-base">Location</h4>
               <p className="text-gray-400 text-xs lg:text-sm">
-                Himorix, O Block, Balaji Choraya<br />
-                Narayan Vihar, Jaipur, Rajasthan
+                A-53, Mohru Nagar, Manyawas<br />
+                Mansarovar, Jaipur, Rajasthan, 302020 India
               </p>
             </div>
           </div>
@@ -163,7 +163,7 @@ export default function Footer() {
               <h4 className="font-bold text-white mb-1 text-sm lg:text-base">Call Us</h4>
               <div className="text-gray-400 text-xs lg:text-sm space-y-1">
                 <p>IND: +91 9929171178</p>
-                <p>US: Coming Soon</p>
+                {/* <p>US: Coming Soon</p> */}
               </div>
             </div>
           </div>
