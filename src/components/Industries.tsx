@@ -81,7 +81,7 @@ export default function Industries() {
                   {industry.description}
                 </p>
                 
-                <a href="#" className="inline-flex items-center text-pink-500 font-bold hover:text-white transition-colors text-sm lg:text-base">
+                <a href="/industries" className="inline-flex items-center text-pink-500 font-bold hover:text-white transition-colors text-sm lg:text-base">
                   Learn More
                   <svg className="w-4 h-4 lg:w-5 lg:h-5 ml-2 transform group-hover:translate-x-2 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />

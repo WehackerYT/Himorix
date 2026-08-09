@@ -477,14 +477,60 @@ export default function Header() {
                   </div>
                 </div>
               </div>
-              <div className="relative group cursor-pointer flex items-center hover:text-pink-500 transition-all duration-300 py-8 hover:scale-105">
-                Industries <ChevronDown className="ml-1 w-4 h-4 transition-transform duration-300 group-hover:rotate-180" />
+              <div 
+                className="relative group cursor-pointer flex items-center hover:text-pink-500 transition-all duration-300 py-8 hover:scale-105"
+                onMouseEnter={() => setActiveDropdown("industries")}
+                onMouseLeave={() => setActiveDropdown(null)}
+              >
+                <Link href="/industries" className="flex items-center">Industries <ChevronDown className="ml-1 w-4 h-4 transition-transform duration-300 group-hover:rotate-180" /></Link>
+                
+                {/* Industries Dropdown Menu */}
+                <div className={`absolute top-full left-1/2 -translate-x-1/2 w-[400px] bg-gray-900 rounded-xl shadow-xl border border-gray-700 overflow-hidden transition-all duration-300 transform ${
+                  activeDropdown === "industries" ? "opacity-100 translate-y-0 visible" : "opacity-0 -translate-y-2 invisible"
+                }`}>
+                  <div className="grid grid-cols-1 gap-0">
+                    <Link href="/industries" className="group/item p-3 hover:bg-gray-800 transition-colors border-b border-white/5 last:border-b-0">
+                      <div className="flex items-start gap-2">
+                        <div className="w-8 h-8 bg-pink-600 rounded-md flex items-center justify-center text-white group-hover/item:bg-pink-500 transition-colors flex-shrink-0">
+                          <Globe className="w-4 h-4" />
+                        </div>
+                        <div className="flex-1 min-w-0">
+                          <h4 className="font-semibold text-white text-xs mb-0.5 group-hover/item:text-pink-400 transition-colors">All Industries</h4>
+                          <p className="text-xs text-gray-400 leading-tight">Explore all industries we serve</p>
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
+                </div>
               </div>
-              <Link href="#" className="hover:text-pink-500 transition-all duration-300 py-8 hover:scale-105">
+              <Link href="/on-demand-developer" className="hover:text-pink-500 transition-all duration-300 py-8 hover:scale-105">
                 On-Demand Developer
               </Link>
-              <div className="relative group cursor-pointer flex items-center hover:text-pink-500 transition-all duration-300 py-8 hover:scale-105">
-                Technologies <ChevronDown className="ml-1 w-4 h-4 transition-transform duration-300 group-hover:rotate-180" />
+              <div 
+                className="relative group cursor-pointer flex items-center hover:text-pink-500 transition-all duration-300 py-8 hover:scale-105"
+                onMouseEnter={() => setActiveDropdown("technologies")}
+                onMouseLeave={() => setActiveDropdown(null)}
+              >
+                <Link href="/technologies" className="flex items-center">Technologies <ChevronDown className="ml-1 w-4 h-4 transition-transform duration-300 group-hover:rotate-180" /></Link>
+                
+                {/* Technologies Dropdown Menu */}
+                <div className={`absolute top-full left-1/2 -translate-x-1/2 w-[400px] bg-gray-900 rounded-xl shadow-xl border border-gray-700 overflow-hidden transition-all duration-300 transform ${
+                  activeDropdown === "technologies" ? "opacity-100 translate-y-0 visible" : "opacity-0 -translate-y-2 invisible"
+                }`}>
+                  <div className="grid grid-cols-1 gap-0">
+                    <Link href="/technologies" className="group/item p-3 hover:bg-gray-800 transition-colors border-b border-white/5 last:border-b-0">
+                      <div className="flex items-start gap-2">
+                        <div className="w-8 h-8 bg-pink-600 rounded-md flex items-center justify-center text-white group-hover/item:bg-pink-500 transition-colors flex-shrink-0">
+                          <Cpu className="w-4 h-4" />
+                        </div>
+                        <div className="flex-1 min-w-0">
+                          <h4 className="font-semibold text-white text-xs mb-0.5 group-hover/item:text-pink-400 transition-colors">All Technologies</h4>
+                          <p className="text-xs text-gray-400 leading-tight">Explore our full tech stack</p>
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
+                </div>
               </div>
               {/* Success Stories - temporarily hidden
               <div 
@@ -603,14 +649,21 @@ export default function Header() {
               </div>
 
               {/* Other Menu Items */}
-              {['Cloud', 'Data & AI', 'Security', 'Industries', 'On-Demand Developer', 'Technologies'].map((item) => (
+              {[
+                { label: 'Cloud', href: '/cloud' },
+                { label: 'Data & AI', href: '/data-ai' },
+                { label: 'Security', href: '/security' },
+                { label: 'Industries', href: '/industries' },
+                { label: 'On-Demand Developer', href: '/on-demand-developer' },
+                { label: 'Technologies', href: '/technologies' },
+              ].map((item) => (
                 <Link 
-                  key={item}
-                  href="#" 
+                  key={item.label}
+                  href={item.href} 
                   className="block px-3 py-3 text-base font-medium text-gray-200 hover:text-pink-500 hover:bg-gray-800 rounded-md border-b border-gray-700 last:border-0 transition-colors"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  {item}
+                  {item.label}
                 </Link>
               ))}
               

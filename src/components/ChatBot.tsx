@@ -90,7 +90,7 @@ export default function ChatBot() {
     
     // Check for company info
     if (about.some(word => message.includes(word)) && (message.includes('company') || message.includes('himorix') || message.includes('about'))) {
-      return `${personalGreeting}Himorix is a leading software development company with 10+ years of experience! 🚀\n\nWe've delivered 500+ projects across 25+ countries. Our team of 100+ experts specializes in:\n\n• Custom Software Development\n• Web & Mobile Apps\n• Cloud Solutions\n• AI & Data Analytics\n• Cybersecurity\n\nWhat would you like to know more about?`;
+      return `${personalGreeting}Himorix is a leading software development company based in Jaipur, India with 10+ years of experience! 🚀\n\nWe've delivered 500+ projects across India. Our team of 100+ experts specializes in:\n\n• Custom Software Development\n• Web & Mobile Apps\n• Cloud Solutions\n• AI & Data Analytics\n• Cybersecurity\n\nWhat would you like to know more about?`;
     }
     
     // Check for greetings with name
@@ -103,7 +103,7 @@ export default function ChatBot() {
     
     // Check for hiring/careers
     if (hire.some(word => message.includes(word))) {
-      return "Thanks for your interest in joining Himorix! 🎯\n\nWe're always looking for talented developers, designers, and tech enthusiasts.\n\n📧 Send your resume to: careers@himorix.com\n\nCurrent openings:\n• Full Stack Developers\n• Mobile App Developers\n• UI/UX Designers\n• DevOps Engineers\n• AI/ML Specialists";
+      return "Thanks for your interest in joining Himorix! 🎯\n\nWe're always looking for talented developers, designers, and tech enthusiasts.\n\n📧 Send your resume to: info@himorix.com\n\nCurrent openings:\n• Full Stack Developers\n• Mobile App Developers\n• UI/UX Designers\n• DevOps Engineers\n• AI/ML Specialists";
     }
     
     // Check for services inquiry
@@ -138,25 +138,17 @@ export default function ChatBot() {
     
     // Check for pricing
     if (pricing.some(price => message.includes(price))) {
-      return `${personalGreeting}Our pricing is project-based. Here's a rough idea:\n\n💰 Basic websites: $5K - $15K\n💰 Web applications: $15K - $50K\n💰 Mobile apps: $10K - $40K\n💰 Enterprise solutions: $50K+\n\nThe exact cost depends on features, complexity, and timeline.\n\nWould you like a detailed quote for your specific project?`;
+      return `${personalGreeting}Our pricing is project-based. Here's a rough idea:\n\n💰 Basic websites: ₹50,000 - ₹1,50,000\n💰 Web applications: ₹1,50,000 - ₹5,00,000\n💰 Mobile apps: ₹1,00,000 - ₹4,00,000\n💰 Enterprise solutions: ₹5,00,000+\n\nThe exact cost depends on features, complexity, and timeline.\n\nWould you like a detailed quote for your specific project?`;
     }
     
     // Check for contact
     if (contact.some(contactInfo => message.includes(contactInfo))) {
-      return `${personalGreeting}Here's how to reach us:
-
-📞 IND: +91 9929171178
-📧 Email: contact@himorix.com
-📍 Office: A-53, Mohru Nagar, Manyawas, Mansarovar, Jaipur, Rajasthan, 302020 India
-
-🕐 Business Hours: Mon-Fri 9AM-6PM IST
-
-Prefer a call or email? I can connect you right away!`;
+      return `${personalGreeting}Here's how to reach us:\n\n📞 Phone: +91 9929171178\n📧 Email: info@himorix.com\n📍 Office: A-53, Mohru Nagar, Manyawas, Mansarovar, Jaipur, Rajasthan, 302020 India\n\n🕐 Business Hours: Mon-Fri 9AM-6PM IST\n\nPrefer a call or email? I can connect you right away!`;
     }
     
     // Check for portfolio
     if (portfolio.some(port => message.includes(port))) {
-      return `${personalGreeting}Our portfolio highlights:\n\n🏆 500+ successful projects delivered\n🏆 Clients across 25+ countries\n🏆 Industries: Fintech, Healthcare, E-commerce, SaaS, Enterprise\n\nRecent projects:\n• Banking app with 1M+ users\n• Healthcare platform for 50+ hospitals\n• E-commerce site with $10M+ GMV\n• AI-powered analytics dashboard\n\nWant to see specific case studies?`;
+      return `${personalGreeting}Our portfolio highlights:\n\n🏆 500+ successful projects delivered\n🏆 Serving clients across India\n🏆 Industries: Fintech, Healthcare, E-commerce, SaaS, Enterprise\n\nRecent projects:\n• Banking app with 1M+ users\n• Healthcare platform for 50+ hospitals\n• E-commerce site with ₹10Cr+ GMV\n• AI-powered analytics dashboard\n\nWant to see specific case studies?`;
     }
     
     // Check for timeline
@@ -191,17 +183,17 @@ Prefer a call or email? I can connect you right away!`;
     
     // Check for location
     if (message.includes('where') && (message.includes('located') || message.includes('based'))) {
-      return `${personalGreeting}We're based in Jaipur, Rajasthan, India 🇮�\n\nBut we serve clients globally with team members across India and expanding internationally!\n\nOur presence allows us to provide excellent development support. 🌍`;
+      return `${personalGreeting}We're based in Jaipur, Rajasthan, India 🇮🇳\n\nWe serve clients across India with our team of 100+ expert developers and designers.\n\nOur presence allows us to provide excellent development support. �`;
     }
     
     // Check for experience/team
     if (message.includes('experience') || message.includes('years') || message.includes('team') || message.includes('developers')) {
-      return `${personalGreeting}Himorix by numbers:\n\n📅 10+ years of experience\n👥 100+ expert developers & designers\n🚀 500+ successful projects\n🌍 25+ countries served\n⭐ 98% client satisfaction rate\n\nOur team includes specialists in every major technology stack!`;
+      return `${personalGreeting}Himorix by numbers:\n\n📅 10+ years of experience\n👥 100+ expert developers & designers\n🚀 500+ successful projects\n🇮� Serving clients across India\n⭐ 98% client satisfaction rate\n\nOur team includes specialists in every major technology stack!`;
     }
     
     // Check for start/begin/process
     if (message.includes('start') || message.includes('begin') || message.includes('process') || message.includes('how to')) {
-      return `${personalGreeting}Getting started is easy! 🚀\n\n1️⃣ Share your project requirements\n2️⃣ Get free consultation (within 24 hours)\n3️⃣ Receive detailed proposal & timeline\n4️⃣ Kick-off with dedicated team\n\nYou can:\n• Fill out the contact form\n• Email us at contact@himorix.com\n• Call +91 9929171178\n\nWhat's your project idea? Let's discuss!`;
+      return `${personalGreeting}Getting started is easy! 🚀\n\n1️⃣ Share your project requirements\n2️⃣ Get free consultation (within 24 hours)\n3️⃣ Receive detailed proposal & timeline\n4️⃣ Kick-off with dedicated team\n\nYou can:\n• Fill out the contact form\n• Email us at info@himorix.com\n• Call +91 9929171178\n\nWhat's your project idea? Let's discuss!`;
     }
     
     // Context-aware response based on previous messages

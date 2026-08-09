@@ -10,8 +10,8 @@ const testimonials = [
     name: "Rajesh Kumar",
     company: "TechStart Solutions, Mumbai",
     rating: 5,
-    videoThumbnail: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1974&q=80",
-    profileImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+    videoThumbnail: "https://images.unsplash.com/photo-1521737604892-dffcc805e2fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1974&q=80",
+    profileImage: "https://randomuser.me/api/portraits/men/75.jpg",
     text: "Himorix delivered beyond our expectations. The custom platform they built helped us scale our operations 10x within the first year. Their team's expertise in modern tech stack is remarkable."
   },
   {
@@ -19,8 +19,8 @@ const testimonials = [
     name: "Priya Sharma",
     company: "Digital Innovations, Bangalore",
     rating: 5,
-    videoThumbnail: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=1974&q=80",
-    profileImage: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+    videoThumbnail: "https://images.unsplash.com/photo-1573164713988-8665fc964cef?ixlib=rb-4.0.3&auto=format&fit=crop&w=1974&q=80",
+    profileImage: "https://randomuser.me/api/portraits/women/75.jpg",
     text: "The API integrations were flawless. We've seen a massive reduction in manual data entry and a huge boost in overall team productivity. Highly recommend the Himorix team for any complex development needs."
   },
   {
@@ -28,8 +28,8 @@ const testimonials = [
     name: "Amit Patel",
     company: "E-commerce Plus, Delhi",
     rating: 5,
-    videoThumbnail: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1974&q=80",
-    profileImage: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+    videoThumbnail: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1974&q=80",
+    profileImage: "https://randomuser.me/api/portraits/men/76.jpg",
     text: "Their attention to detail and modern tech stack choices gave us an edge over our competitors. The mobile app they developed has increased our customer engagement by 300%."
   },
   {
@@ -37,8 +37,8 @@ const testimonials = [
     name: "Neha Gupta",
     company: "Fintech Solutions, Pune",
     rating: 5,
-    videoThumbnail: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=1974&q=80",
-    profileImage: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+    videoThumbnail: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1974&q=80",
+    profileImage: "https://randomuser.me/api/portraits/women/76.jpg",
     text: "Working with Himorix was a game-changer for our startup. They understood our requirements perfectly and delivered a scalable solution that handles our growing user base seamlessly."
   },
   {
@@ -46,8 +46,8 @@ const testimonials = [
     name: "Vikram Singh",
     company: "HealthTech India, Chennai",
     rating: 5,
-    videoThumbnail: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1974&q=80",
-    profileImage: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+    videoThumbnail: "https://images.unsplash.com/photo-1576091160399-5ba5f59a9869?ixlib=rb-4.0.3&auto=format&fit=crop&w=1974&q=80",
+    profileImage: "https://randomuser.me/api/portraits/men/77.jpg",
     text: "The healthcare platform they developed is intuitive and robust. Patient data security and compliance were handled excellently. Their support team is always available when needed."
   },
   {
@@ -55,8 +55,8 @@ const testimonials = [
     name: "Anjali Reddy",
     company: "EduTech Systems, Hyderabad",
     rating: 5,
-    videoThumbnail: "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1974&q=80",
-    profileImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+    videoThumbnail: "https://images.unsplash.com/photo-1522202176988-66273c2fd47f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1974&q=80",
+    profileImage: "https://randomuser.me/api/portraits/women/77.jpg",
     text: "Our online learning platform has transformed how we deliver education. The user experience is exceptional, and the backend architecture handles thousands of concurrent users without any issues."
   }
 ];
