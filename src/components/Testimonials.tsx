@@ -109,7 +109,7 @@ export default function Testimonials() {
           </p>
         </div> */}
 
-        {/* Testimonials Container */}
+        {/* Testimonials Container
         <div className="relative">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
             {getVisibleTestimonials().map((testimonial, index) => (
@@ -117,7 +117,6 @@ export default function Testimonials() {
                 key={`${testimonial.id}-${currentSlide}`}
                 className="bg-white rounded-2xl p-4 lg:p-6 shadow-xl shadow-pink-900/5 hover:-translate-y-2 transition-all duration-300 border border-gray-100"
               >
-                {/* Profile Image */}
                 <div className="flex items-center gap-4 mb-6">
                   <div className="relative w-16 h-16 rounded-full overflow-hidden ring-4 ring-pink-100">
                     <Image
@@ -133,7 +132,6 @@ export default function Testimonials() {
                   </div>
                 </div>
 
-                {/* Video Thumbnail Area */}
                 <div 
                   className="relative h-40 w-full rounded-xl overflow-hidden mb-6 group cursor-pointer"
                   onClick={() => setPlayingId(playingId === testimonial.id ? null : testimonial.id)}
@@ -156,7 +154,6 @@ export default function Testimonials() {
                   </div>
                 </div>
 
-                {/* Stars */}
                 <div className="flex gap-1 mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
                     <svg key={i} className="w-5 h-5 lg:w-6 lg:h-6 text-yellow-400 fill-current" viewBox="0 0 20 20">
@@ -170,7 +167,6 @@ export default function Testimonials() {
             ))}
           </div>
 
-          {/* Navigation Controls */}
           <div className="flex items-center justify-center mt-8 gap-4">
             <button
               onClick={prevSlide}
@@ -179,7 +175,6 @@ export default function Testimonials() {
               <ChevronLeft className="w-6 h-6" />
             </button>
 
-            {/* Dots Indicator */}
             <div className="flex gap-2">
               {[0, 1, 2, 3].map((index) => (
                 <button
@@ -213,7 +208,7 @@ export default function Testimonials() {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
