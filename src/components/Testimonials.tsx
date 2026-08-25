@@ -100,116 +100,117 @@ export default function Testimonials() {
   };
 
   return (
-    <section className="py-24 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">What Our Clients Say</h2>
-          <p className="text-xl text-gray-600">
-            Discover how we&apos;ve helped businesses achieve their goals through our dedicated service and expertise.
-          </p>
-        </div> */}
-
-        {/* Testimonials Container
-        <div className="relative">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-            {getVisibleTestimonials().map((testimonial, index) => (
-              <div 
-                key={`${testimonial.id}-${currentSlide}`}
-                className="bg-white rounded-2xl p-4 lg:p-6 shadow-xl shadow-pink-900/5 hover:-translate-y-2 transition-all duration-300 border border-gray-100"
-              >
-                <div className="flex items-center gap-4 mb-6">
-                  <div className="relative w-16 h-16 rounded-full overflow-hidden ring-4 ring-pink-100">
-                    <Image
-                      src={testimonial.profileImage}
-                      alt={testimonial.name}
-                      fill
-                      style={{ objectFit: "cover" }}
-                    />
-                  </div>
-                  <div>
-                    <h3 className="text-xl lg:text-2xl font-bold text-gray-900 mb-1">{testimonial.name}</h3>
-                    <p className="text-pink-600 font-medium text-sm lg:text-base">{testimonial.company}</p>
-                  </div>
-                </div>
-
-                <div 
-                  className="relative h-40 w-full rounded-xl overflow-hidden mb-6 group cursor-pointer"
-                  onClick={() => setPlayingId(playingId === testimonial.id ? null : testimonial.id)}
-                >
-                  <Image
-                    src={testimonial.videoThumbnail}
-                    alt={`${testimonial.name} Testimonial`}
-                    fill
-                    style={{ objectFit: "cover" }}
-                    className="transition-transform duration-500 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center">
-                    <div className="w-12 h-12 bg-white text-pink-600 rounded-full flex items-center justify-center shadow-lg transform group-hover:scale-110 transition-transform duration-300">
-                      {playingId === testimonial.id ? (
-                        <Pause className="w-5 h-5 fill-current" />
-                      ) : (
-                        <Play className="w-5 h-5 fill-current ml-1" />
-                      )}
-                    </div>
-                  </div>
-                </div>
-
-                <div className="flex gap-1 mb-4">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <svg key={i} className="w-5 h-5 lg:w-6 lg:h-6 text-yellow-400 fill-current" viewBox="0 0 20 20">
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                  ))}
-                </div>
-
-                <p className="text-gray-600 italic text-sm lg:text-base mb-4">&quot;{testimonial.text}&quot;</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="flex items-center justify-center mt-8 gap-4">
-            <button
-              onClick={prevSlide}
-              className="w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center text-gray-600 hover:text-pink-600 hover:shadow-pink-200 transition-all"
-            >
-              <ChevronLeft className="w-6 h-6" />
-            </button>
-
-            <div className="flex gap-2">
-              {[0, 1, 2, 3].map((index) => (
-                <button
-                  key={index}
-                  onClick={() => goToSlide(index)}
-                  className={`w-3 h-3 rounded-full transition-all ${
-                    index === currentSlide 
-                      ? "bg-pink-600 w-8" 
-                      : "bg-gray-300 hover:bg-gray-400"
-                  }`}
-                />
-              ))}
-            </div>
-
-            <div className="flex items-center gap-2">
-              <button
-                onClick={() => setIsPlaying(!isPlaying)}
-                className="w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center text-gray-600 hover:text-pink-600 hover:shadow-pink-200 transition-all"
-              >
-                {isPlaying ? (
-                  <Pause className="w-5 h-5" />
-                ) : (
-                  <Play className="w-5 h-5 ml-0.5" />
-                )}
-              </button>
-              <button
-                onClick={nextSlide}
-                className="w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center text-gray-600 hover:text-pink-600 hover:shadow-pink-200 transition-all"
-              >
-                <ChevronRight className="w-6 h-6" />
-              </button>
-            </div>
-          </div>
-        </div> */}
-      </div>
-    </section>
+    // <section className="py-24 bg-gray-50">
+    //   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    //     {/* <div className="text-center max-w-3xl mx-auto mb-16">
+    //       <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">What Our Clients Say</h2>
+    //       <p className="text-xl text-gray-600">
+    //         Discover how we&apos;ve helped businesses achieve their goals through our dedicated service and expertise.
+    //       </p>
+    //     </div> */}
+    //
+    //     {/* Testimonials Container
+    //     <div className="relative">
+    //       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+    //         {getVisibleTestimonials().map((testimonial, index) => (
+    //           <div 
+    //             key={`${testimonial.id}-${currentSlide}`}
+    //             className="bg-white rounded-2xl p-4 lg:p-6 shadow-xl shadow-pink-900/5 hover:-translate-y-2 transition-all duration-300 border border-gray-100"
+    //           >
+    //             <div className="flex items-center gap-4 mb-6">
+    //               <div className="relative w-16 h-16 rounded-full overflow-hidden ring-4 ring-pink-100">
+    //                 <Image
+    //                   src={testimonial.profileImage}
+    //                   alt={testimonial.name}
+    //                   fill
+    //                   style={{ objectFit: "cover" }}
+    //                 />
+    //               </div>
+    //               <div>
+    //                 <h3 className="text-xl lg:text-2xl font-bold text-gray-900 mb-1">{testimonial.name}</h3>
+    //                 <p className="text-pink-600 font-medium text-sm lg:text-base">{testimonial.company}</p>
+    //               </div>
+    //             </div>
+    //
+    //             <div 
+    //               className="relative h-40 w-full rounded-xl overflow-hidden mb-6 group cursor-pointer"
+    //               onClick={() => setPlayingId(playingId === testimonial.id ? null : testimonial.id)}
+    //             >
+    //               <Image
+    //                 src={testimonial.videoThumbnail}
+    //                 alt={`${testimonial.name} Testimonial`}
+    //                 fill
+    //                 style={{ objectFit: "cover" }}
+    //                 className="transition-transform duration-500 group-hover:scale-105"
+    //               />
+    //               <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center">
+    //                 <div className="w-12 h-12 bg-white text-pink-600 rounded-full flex items-center justify-center shadow-lg transform group-hover:scale-110 transition-transform duration-300">
+    //                   {playingId === testimonial.id ? (
+    //                     <Pause className="w-5 h-5 fill-current" />
+    //                   ) : (
+    //                     <Play className="w-5 h-5 fill-current ml-1" />
+    //                   )}
+    //                 </div>
+    //               </div>
+    //             </div>
+    //
+    //             <div className="flex gap-1 mb-4">
+    //               {[...Array(testimonial.rating)].map((_, i) => (
+    //                 <svg key={i} className="w-5 h-5 lg:w-6 lg:h-6 text-yellow-400 fill-current" viewBox="0 0 20 20">
+    //                   <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+    //                 </svg>
+    //               ))}
+    //             </div>
+    //
+    //             <p className="text-gray-600 italic text-sm lg:text-base mb-4">&quot;{testimonial.text}&quot;</p>
+    //           </div>
+    //         ))}
+    //       </div>
+    //
+    //       <div className="flex items-center justify-center mt-8 gap-4">
+    //         <button
+    //           onClick={prevSlide}
+    //           className="w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center text-gray-600 hover:text-pink-600 hover:shadow-pink-200 transition-all"
+    //         >
+    //           <ChevronLeft className="w-6 h-6" />
+    //         </button>
+    //
+    //         <div className="flex gap-2">
+    //           {[0, 1, 2, 3].map((index) => (
+    //             <button
+    //               key={index}
+    //               onClick={() => goToSlide(index)}
+    //               className={`w-3 h-3 rounded-full transition-all ${
+    //                 index === currentSlide 
+    //                   ? "bg-pink-600 w-8" 
+    //                   : "bg-gray-300 hover:bg-gray-400"
+    //               }`}
+    //             />
+    //           ))}
+    //         </div>
+    //
+    //         <div className="flex items-center gap-2">
+    //           <button
+    //             onClick={() => setIsPlaying(!isPlaying)}
+    //             className="w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center text-gray-600 hover:text-pink-600 hover:shadow-pink-200 transition-all"
+    //           >
+    //             {isPlaying ? (
+    //               <Pause className="w-5 h-5" />
+    //             ) : (
+    //               <Play className="w-5 h-5 ml-0.5" />
+    //             )}
+    //           </button>
+    //           <button
+    //             onClick={nextSlide}
+    //             className="w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center text-gray-600 hover:text-pink-600 hover:shadow-pink-200 transition-all"
+    //           >
+    //             <ChevronRight className="w-6 h-6" />
+    //           </button>
+    //         </div>
+    //       </div>
+    //     </div> */}
+    //   </div>
+    // </section>
+    null
   );
 }
