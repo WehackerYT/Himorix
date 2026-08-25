@@ -117,7 +117,15 @@ export default function AboutCompany() {
             </div>
             <div className="flex items-center gap-2">
               <Phone className="w-5 h-5 text-pink-400" />
-              <span>IND: +91 9929171178</span>
+              <span>+91 9929171178</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Phone className="w-5 h-5 text-pink-400" />
+              <span>+91 7877602483</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Phone className="w-5 h-5 text-pink-400" />
+              <span>+91 8107475487</span>
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="w-5 h-5 text-pink-400" />

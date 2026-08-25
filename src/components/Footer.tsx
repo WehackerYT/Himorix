@@ -164,7 +164,9 @@ export default function Footer() {
             <div>
               <h4 className="font-bold text-white mb-1 text-sm lg:text-base">Call Us</h4>
               <div className="text-gray-400 text-xs lg:text-sm space-y-1">
-                <p>IND: +91 9929171178</p>
+                <p>+91 9929171178</p>
+                <p>+91 7877602483</p>
+                <p>+91 8107475487</p>
                 {/* <p>US: Coming Soon</p> */}
               </div>
             </div>

@@ -143,7 +143,7 @@ export default function ChatBot() {
     
     // Check for contact
     if (contact.some(contactInfo => message.includes(contactInfo))) {
-      return `${personalGreeting}Here's how to reach us:\n\n📞 Phone: +91 9929171178\n📧 Email: info@himorix.com\n📍 Office: A-53, Mohru Nagar, Manyawas, Mansarovar, Jaipur, Rajasthan, 302020 India\n\n🕐 Business Hours: Mon-Fri 9AM-6PM IST\n\nPrefer a call or email? I can connect you right away!`;
+      return `${personalGreeting}Here's how to reach us:\n\n📞 Phone: +91 9929171178\n� Phone: +91 7877602483\n📞 Phone: +91 8107475487\n�📧 Email: info@himorix.com\n📍 Office: A-53, Mohru Nagar, Manyawas, Mansarovar, Jaipur, Rajasthan, 302020 India\n\n🕐 Business Hours: Mon-Fri 9AM-6PM IST\n\nPrefer a call or email? I can connect you right away!`;
     }
     
     // Check for portfolio

@@ -228,7 +228,9 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Phone</h4>
-                      <p className="text-gray-600">IND: +91 9929171178</p>
+                      <p className="text-gray-600">+91 9929171178</p>
+                      <p className="text-gray-600">+91 7877602483</p>
+                      <p className="text-gray-600">+91 8107475487</p>
                     </div>
                   </div>
                   

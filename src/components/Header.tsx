@@ -112,6 +112,14 @@ export default function Header() {
           <span className="text-pink-600">IND</span> <span className="text-white">+91 9929171178</span>
         </div>
         <div className="flex items-center space-x-2 border-l border-gray-600 pl-4">
+          <Phone className="w-3 h-3 text-pink-600" />
+          <span className="text-white">+91 7877602483</span>
+        </div>
+        <div className="flex items-center space-x-2 border-l border-gray-600 pl-4">
+          <Phone className="w-3 h-3 text-pink-600" />
+          <span className="text-white">+91 8107475487</span>
+        </div>
+        <div className="flex items-center space-x-2 border-l border-gray-600 pl-4">
           <Link
             href="/auth"
             className="text-gray-300 hover:text-white transition-colors"
