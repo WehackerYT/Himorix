@@ -1,4 +1,4 @@
-import { Building, Mail, Phone, MapPin, Globe, Users, Target, Award, ArrowLeft } from 'lucide-react';
+import { Building, Mail, MapPin, Globe, Users, Target, Award, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 
 export default function AboutCompany() {
@@ -115,18 +115,6 @@ export default function AboutCompany() {
             <div className="flex items-center gap-2">
               <Mail className="w-5 h-5 text-pink-400" />
               <span>info@himorix.com</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Phone className="w-5 h-5 text-pink-400" />
-              <span>+91 9929171178</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Phone className="w-5 h-5 text-pink-400" />
-              <span>+91 7877602483</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Phone className="w-5 h-5 text-pink-400" />
-              <span>+91 8107475487</span>
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="w-5 h-5 text-pink-400" />

@@ -85,7 +85,6 @@ export default function PrivacyPolicyPage() {
                 <p className="text-gray-600">
                   If you have any questions about this Privacy Policy, please contact us at:<br />
                   Email: info@himorix.com<br />
-                  Phone: +91 9929171178<br />
                   Address: A-53, Mohru Nagar, Manyawas, Mansarovar, Jaipur, Rajasthan, 302020 India
                 </p>
               </div>

@@ -143,7 +143,7 @@ export default function ChatBot() {
     
     // Check for contact
     if (contact.some(contactInfo => message.includes(contactInfo))) {
-      return `${personalGreeting}Here's how to reach us:\n\n📞 Phone: +91 9929171178\n� Phone: +91 7877602483\n📞 Phone: +91 8107475487\n�📧 Email: info@himorix.com\n📍 Office: A-53, Mohru Nagar, Manyawas, Mansarovar, Jaipur, Rajasthan, 302020 India\n\n🕐 Business Hours: Mon-Fri 9AM-6PM IST\n\nPrefer a call or email? I can connect you right away!`;
+      return `${personalGreeting}Here's how to reach us:\n\n Email: info@himorix.com\n📍 Office: A-53, Mohru Nagar, Manyawas, Mansarovar, Jaipur, Rajasthan, 302020 India\n\n🕐 Business Hours: Mon-Fri 9AM-6PM IST\n\nFeel free to email us — I can connect you right away!`;
     }
     
     // Check for portfolio
@@ -178,7 +178,7 @@ export default function ChatBot() {
     
     // Check for goodbye
     if (goodbye.some(bye => message.includes(bye))) {
-      return `${userName ? `${userName}, ` : ''}Thanks for chatting with Himorix! 👋\n\nFeel free to reach out anytime. Have a great day! 🌟\n\nIf you need urgent assistance, call us at +91 9929171178`;
+      return `${userName ? `${userName}, ` : ''}Thanks for chatting with Himorix! 👋\n\nFeel free to reach out anytime. Have a great day! 🌟\n\nIf you need urgent assistance, email us at info@himorix.com`;
     }
     
     // Check for location
@@ -193,7 +193,7 @@ export default function ChatBot() {
     
     // Check for start/begin/process
     if (message.includes('start') || message.includes('begin') || message.includes('process') || message.includes('how to')) {
-      return `${personalGreeting}Getting started is easy! 🚀\n\n1️⃣ Share your project requirements\n2️⃣ Get free consultation (within 24 hours)\n3️⃣ Receive detailed proposal & timeline\n4️⃣ Kick-off with dedicated team\n\nYou can:\n• Fill out the contact form\n• Email us at info@himorix.com\n• Call +91 9929171178\n\nWhat's your project idea? Let's discuss!`;
+      return `${personalGreeting}Getting started is easy! 🚀\n\n1️⃣ Share your project requirements\n2️⃣ Get free consultation (within 24 hours)\n3️⃣ Receive detailed proposal & timeline\n4️⃣ Kick-off with dedicated team\n\nYou can:\n• Fill out the contact form\n• Email us at info@himorix.com\n\nWhat's your project idea? Let's discuss!`;
     }
     
     // Context-aware response based on previous messages

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from 'react';
-import { Phone, Mail, MapPin, Clock, Send, MessageSquare, Building, Globe } from 'lucide-react';
+import { Mail, MapPin, Clock, Send, MessageSquare, Building, Globe } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
@@ -222,17 +222,6 @@ export default function Contact() {
               <div className="bg-white rounded-2xl shadow-xl p-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">Quick Contact</h3>
                 <div className="space-y-4">
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Phone className="w-6 h-6 text-pink-600" />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-gray-900">Phone</h4>
-                      <p className="text-gray-600">+91 9929171178</p>
-                      <p className="text-gray-600">+91 7877602483</p>
-                      <p className="text-gray-600">+91 8107475487</p>
-                    </div>
-                  </div>
                   
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center flex-shrink-0">

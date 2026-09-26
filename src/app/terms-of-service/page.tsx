@@ -82,7 +82,7 @@ export default function TermsOfServicePage() {
               <div>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">9. Contact</h2>
                 <p className="text-gray-600">
-                  For questions about these Terms, contact us at info@himorix.com or +91 9929171178.
+                  For questions about these Terms, contact us at info@himorix.com.
                 </p>
               </div>
 
