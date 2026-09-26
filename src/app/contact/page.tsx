@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from 'react';
-import { Mail, MapPin, Clock, Send, MessageSquare, Building, Globe } from 'lucide-react';
+import { Mail, Clock, Send, MessageSquare, Building, Globe } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
@@ -234,16 +234,6 @@ export default function Contact() {
                     </div>
                   </div>
                   
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <MapPin className="w-6 h-6 text-pink-600" />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-gray-900">Office</h4>
-                      <p className="text-gray-600">A-53, Mohru Nagar, Manyawas</p>
-                      <p className="text-gray-600">Mansarovar, Jaipur, Rajasthan, 302020 India</p>
-                    </div>
-                  </div>
                 </div>
               </div>
               
@@ -291,17 +281,6 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="relative h-96 bg-gray-200">
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900/20"></div>
-        <div className="relative h-full flex items-center justify-center">
-          <div className="text-center">
-            <MapPin className="w-16 h-16 text-pink-600 mx-auto mb-4" />
-            <h3 className="text-2xl font-bold text-gray-900 mb-2">Visit Our Office</h3>
-            <p className="text-gray-600">A-53, Mohru Nagar, Manyawas, Mansarovar, Jaipur, Rajasthan, 302020 India</p>
-          </div>
-        </div>
-      </section>
     </main>
     <Footer />
     </>

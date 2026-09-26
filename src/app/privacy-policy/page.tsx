@@ -84,8 +84,7 @@ export default function PrivacyPolicyPage() {
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">8. Contact Us</h2>
                 <p className="text-gray-600">
                   If you have any questions about this Privacy Policy, please contact us at:<br />
-                  Email: info@himorix.com<br />
-                  Address: A-53, Mohru Nagar, Manyawas, Mansarovar, Jaipur, Rajasthan, 302020 India
+                  Email: info@himorix.com
                 </p>
               </div>
 

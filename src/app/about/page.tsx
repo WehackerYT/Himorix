@@ -1,4 +1,4 @@
-import { Building, Mail, MapPin, Globe, Users, Target, Award, ArrowLeft } from 'lucide-react';
+import { Building, Mail, Globe, Users, Target, Award, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -114,10 +114,6 @@ export default function AboutCompany() {
             <div className="flex items-center gap-2">
               <Mail className="w-5 h-5 text-pink-400" />
               <span>info@himorix.com</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <MapPin className="w-5 h-5 text-pink-400" />
-              <span>Mansarovar, Jaipur, Rajasthan, 302020 India</span>
             </div>
             <div className="flex items-center gap-2">
               <Globe className="w-5 h-5 text-pink-400" />
